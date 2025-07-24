@@ -1,0 +1,70 @@
+# AI Agent Framework .gitignore
+
+# Google Apps Script specific
+*.json
+clasp.json
+.clasp.json
+
+# Development files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+
+# API Keys and Credentials (should be in PropertiesService)
+api-keys.txt
+credentials.json
+service-account.json
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js (if using clasp or other tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Backup files
+*.backup
+*.bak
+backup/
+
+# Test files
+test-results/
+coverage/
+
+# Documentation build files
+docs/_build/
+docs/dist/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary directories
+tmp/
+temp/
+.temp/
+
+# User-specific customizations
+user-config.gs
+local-settings.gs
+my-agent-*.gs 
